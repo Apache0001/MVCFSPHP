@@ -1,0 +1,29 @@
+{
+    "name": "pablo/mv-cphp",
+    "description": "Projeto MVC recome\u0000ando",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Oliveira Mesquita",
+            "email": "pablo_omesquita@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Source\\":"source/"
+        },
+        "files": [
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php"
+        ]
+    },
+    "require": {
+        "php":"^7.1",
+        "league/plates": "v4.0.0-alpha",
+        "coffeecode/router": "1.0.*",
+        "coffeecode/optimizer": "^1.0"
+
+    }
+
+}
